@@ -20,9 +20,18 @@ body {
 
 .heading-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.heading-section > img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #f8a0d6;
 }
 
 .heading-section > h1 {
