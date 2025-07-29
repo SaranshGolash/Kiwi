@@ -37,6 +37,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: start;
+    width: 100%;
 }
 
 /* pros-section styling */
@@ -46,7 +47,10 @@ body {
     justify-content: start;
     align-items: center;
     flex-flow: column nowrap;
+    width: 50%;
 }
+
+/* pros-heading styling */
 
 .pros-heading {
     padding-left: 100px;
@@ -54,3 +58,14 @@ body {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
 }
+
+/* cons-section styling */
+
+.cons-section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 50%;
+}
+
