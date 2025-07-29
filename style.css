@@ -69,3 +69,11 @@ body {
     width: 50%;
 }
 
+/* cons-heading styling */
+
+.cons-heading {
+    padding-left: 100px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
