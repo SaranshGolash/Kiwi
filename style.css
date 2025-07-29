@@ -1,13 +1,22 @@
 body {
-    background-color: #fff;
+    background: linear-gradient(120deg, #e27df1, #fd7cd2, #f8a0d6);
     padding: 0px;
     margin: 0px;
     border: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Main-body-section styling */
+
 .main-body-section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Heading-section styling */
+
+.heading-section > h1 {
+    font-size: 42px;
+    color: #fff;
 }
