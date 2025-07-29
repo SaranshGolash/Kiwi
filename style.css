@@ -13,6 +13,7 @@ body {
     justify-content: center;
     align-items: start;
     flex-flow: column nowrap;
+    gap: 10px;
 }
 
 /* heading-section styling */
@@ -25,8 +26,17 @@ body {
 }
 
 .heading-section > h1 {
-    font-size: 42px;
+    font-size: 46px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #fff;
+}
+
+/* pros-vs-cons styling */
+
+.pros-vs-cons {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
 }
 
 /* pros-section styling */
@@ -39,5 +49,8 @@ body {
 }
 
 .pros-heading {
-    
+    padding-left: 100px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
 }
