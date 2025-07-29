@@ -6,17 +6,38 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Main-body-section styling */
+/* main-body-section styling */
 
 .main-body-section {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    flex-flow: column nowrap;
 }
 
-/* Heading-section styling */
+/* heading-section styling */
+
+.heading-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 .heading-section > h1 {
     font-size: 42px;
     color: #fff;
+}
+
+/* pros-section styling */
+
+.pros-section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.pros-heading {
+    
 }
