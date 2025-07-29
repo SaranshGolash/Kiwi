@@ -31,7 +31,9 @@ body {
 .heading-section > img {
     width: 200px;
     height: 200px;
-    border: 1px solid #f8a0d6;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px 0px 10px;
 }
 
 .heading-section > h1 {
