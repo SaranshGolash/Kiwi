@@ -28,16 +28,6 @@ body {
     border: 0px;
 }
 
-/* Image styling */
-
-img {
-    width: 200px;
-    height: 200px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 10px 0px 10px;
-}
-
 .heading-section > h1 {
     font-size: 46px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -119,4 +109,26 @@ li {
 .my-feelings > div > p {
     font-size: 22px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Image styling */
+
+img {
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px 0px 10px;
+}
+
+img.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Zoom on hover */
+
+img:hover {
+  transform: scale(1.13);
+  transition: transform 0.3s ease;
 }
