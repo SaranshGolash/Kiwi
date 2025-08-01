@@ -132,3 +132,26 @@ img:hover {
   transform: scale(1.13);
   transition: transform 0.3s ease;
 }
+
+/* media queries */
+
+@media (max-width: 406px) {
+    img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .heading-section > h1 {
+        font-size: 14px;
+    }
+
+    .pros-heading {
+        padding-left: 50px;
+        font-size: 14px;
+    }
+
+    .cons-heading {
+        padding-left: 50px;
+        font-size: 14px;
+    }
+}
