@@ -28,7 +28,9 @@ body {
     border: 0px;
 }
 
-.heading-section > img {
+/* Image styling */
+
+img {
     width: 200px;
     height: 200px;
     border: none;
