@@ -94,3 +94,11 @@ body {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
 }
+
+/* List styling */
+
+li {
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
