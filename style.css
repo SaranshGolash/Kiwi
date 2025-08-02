@@ -64,10 +64,11 @@ body {
 /* pros-heading styling */
 
 .pros-heading {
-    padding-left: 350px;
+    padding-left: 300px;
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
+    width: 200px;
 }
 
 /* cons-section styling */
@@ -83,10 +84,11 @@ body {
 /* cons-heading styling */
 
 .cons-heading {
-    padding-left: 350px;
+    padding-left: 300px;
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
+    width: 200px;
 }
 
 /* List styling */
@@ -146,13 +148,15 @@ img:hover {
     }
 
     .pros-heading {
-        padding-left: 50px;
+        padding-left: 60px;
         font-size: 14px;
+        width: 100px;
     }
 
     .cons-heading {
-        padding-left: 50px;
+        padding-left: 70px;
         font-size: 14px;
+        width: 100px;
     }
 
     .my-feelings > div > p {
