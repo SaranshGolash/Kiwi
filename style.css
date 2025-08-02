@@ -154,4 +154,8 @@ img:hover {
         padding-left: 50px;
         font-size: 14px;
     }
+
+    .my-feelings > div > p {
+        font-size: 12px;
+    }
 }
